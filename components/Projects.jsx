@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import CollegeWIT from "../public/assets/projects/Collegewit.png";
 import GithubCrypt from "../public/assets/projects/githubCryp.png";
-import athira from "../public/assets/projects/athira.png";
+import athira from "../public/assets/projects/hridayam.png";
 import gl from "../public/assets/projects/gl.png";
 
 const data = [
@@ -17,19 +17,19 @@ const data = [
   {
     title: "GithubCrypt",
     backgroundImg: GithubCrypt,
-    projectUrl: "/crypto",
+    projectUrl: "/githubcrypt",
     tech: "Blockchain",
   },
   {
-    title: "Athira health",
+    title: "Hridayam",
     backgroundImg: athira,
-    projectUrl: "/netflix",
+    projectUrl: "/hridayam",
     tech: "React JS",
   },
   {
     title: "Gadget lab",
     backgroundImg: gl,
-    projectUrl: "/twitch",
+    projectUrl: "/gadgetlab",
     tech: "Material UI",
   },
 ];
