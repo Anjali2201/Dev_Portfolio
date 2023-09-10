@@ -13,25 +13,25 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hey there! I'm Anjali, and I'm passionate about bringing ideas to
-            life through technology. With two enriching internships, I've laid a
-            strong foundation in web development, specializing in React for the
-            front end and Node.js for the backend. I've had the pleasure of
-            working with various technologies, including MongoDB and Firebase,
-            to create robust and dynamic web applications. Beyond web
-            development, I've delved into the exciting world of data science,
-            working on a range of projects that showcase my analytical skills.
-            My journey has also led me to hackathons, where I've not only honed
-            my problem-solving abilities but also reached the finals, a
-            testament to my dedication.{" "}
+            Hey there! I&apos;m Anjali, and I&apos;m passionate about bringing
+            ideas to life through technology. With two enriching internships,
+            I&apos;ve laid a strong foundation in web development, specializing
+            in React for the front end and Node.js for the backend. I&apos;ve
+            had the pleasure of working with various technologies, including
+            MongoDB and Firebase, to create robust and dynamic web applications.
+            Beyond web development, I&apos;ve delved into the exciting world of
+            data science, working on a range of projects that showcase my
+            analytical skills. My journey has also led me to hackathons, where
+            I&apos;ve not only honed my problem-solving abilities but also
+            reached the finals, a testament to my dedication.
           </p>
 
           <p className="py-2 text-gray-600">
-            In every project and experience, I've embraced the opportunity to
-            learn, grow, and make a tangible impact. I'm excited about the
-            endless possibilities that technology offers, and I'm eager to
-            continue pushing boundaries and creating meaningful solutions. Let's
-            connect and explore how we can innovate together.
+            In every project and experience, I&apos;ve embraced the opportunity
+            to learn, grow, and make a tangible impact. I&apos;m excited about
+            the endless possibilities that technology offers, and I&apos;m eager
+            to continue pushing boundaries and creating meaningful solutions.
+            Let&apos;s connect and explore how we can innovate together.
           </p>
 
           <Link href="/#projects">
