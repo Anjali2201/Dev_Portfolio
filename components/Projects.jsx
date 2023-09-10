@@ -5,10 +5,11 @@ import CollegeWIT from "../public/assets/projects/Collegewit.png";
 import GithubCrypt from "../public/assets/projects/githubCryp.png";
 import athira from "../public/assets/projects/hridayam.png";
 import gl from "../public/assets/projects/gl.png";
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const data = [
   {
+    key: 1,
     title: "CollegeWIT",
     backgroundImg: CollegeWIT,
     // props
@@ -16,18 +17,21 @@ const data = [
     tech: "React JS",
   },
   {
+    key: 2,
     title: "GithubCrypt",
     backgroundImg: GithubCrypt,
     projectUrl: "/githubcrypt",
     tech: "Blockchain",
   },
   {
+    key: 3,
     title: "Hridayam",
     backgroundImg: athira,
     projectUrl: "/hridayam",
     tech: "React JS",
   },
   {
+    key: 4,
     title: "Gadget lab",
     backgroundImg: gl,
     projectUrl: "/gadgetlab",
@@ -46,7 +50,10 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {data.map((item, index) => (
-            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#6c584c] to-[#a98467]">
+            <div
+              key={index}
+              className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#6c584c] to-[#a98467]"
+            >
               <Image
                 className="rounded-xl group-hover:opacity-10"
                 src={item.backgroundImg}

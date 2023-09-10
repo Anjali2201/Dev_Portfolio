@@ -16,51 +16,63 @@ import GCP from "../public/assets/skills/GCP.png";
 
 const data = [
   {
+    key: 1,
     img: Html,
     name: "HTML",
   },
   {
+    key: 2,
     img: Css,
     name: "CSS",
   },
   {
+    key: 3,
     img: Javascript,
     name: "Javascript",
   },
   {
+    key: 4,
     img: ReactImg,
     name: "ReactJS",
   },
   {
+    key: 5,
     img: NextJS,
     name: "NextJS",
   },
   {
+    key: 6,
     img: Node,
     name: "NodeJS",
   },
   {
+    key: 7,
     img: Mui,
     name: "MUI",
   },
   {
+    key: 8,
     img: Mongo,
     name: "MongoDB",
   },
   {
+    key: 9,
     img: Firebase,
     name: "Firebase",
   },
   {
+    key: 10,
     img: Github,
     name: "Github",
   },
   {
+    key: 11,
     img: AWS,
     name: "AWS",
   },
 
   {
+    key: 12,
     img: GCP,
     name: "Google Cloud",
   },
@@ -78,7 +90,10 @@ const Skills = () => {
         {/* --------------------------- Skills ------------------------- */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-3">
           {data.map((item) => (
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div
+              key={item.key}
+              className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
+            >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={item.img} width="64px" height="64px" alt="/" />
