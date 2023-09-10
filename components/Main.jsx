@@ -25,7 +25,7 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I&#39;m <span className="text-[#6c584c]"> Anjali</span>
+            Hi, I&#39;m <span className="text-[#a98467]"> Anjali</span>
           </h1>
           <h1 className="py-2 text-gray-700">Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
@@ -41,7 +41,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer 
+                hover:scale-110 ease-in duration-300 hover:bg-[#a98467] hover:text-white"
+              >
                 <FaLinkedinIn />
               </div>
             </a>
@@ -52,21 +55,21 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#a98467] hover:text-white">
                 <FaGithub />
               </div>
             </a>
 
             {/* --- Email------ */}
             <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#a98467] hover:text-white">
                 <AiOutlineMail />
               </div>
             </Link>
 
             {/* --- Resume------ */}
             <Link href="/resume">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#a98467] hover:text-white">
                 <BsFillPersonLinesFill />
               </div>
             </Link>

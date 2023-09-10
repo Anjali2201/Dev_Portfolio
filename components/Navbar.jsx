@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <p1 className="cursor-pointer">
-            Anjali<span className="text-[#6c584c]">@code</span>
+            Anjali<span className="text-[#a98467]">@code</span>
           </p1>
         </Link>
         <div>
