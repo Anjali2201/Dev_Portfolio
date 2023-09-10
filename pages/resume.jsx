@@ -1,50 +1,49 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Anjali | Resume</title>
         <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel='icon' href='/fav.png' />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">Anjali Kushwaha</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/anjallliii/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/Anjali2201"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Proven Leadership <span className="px-1">|</span> Web Development{" "}
+              <span className="px-1">|</span> Data Science
             </p>
           </div>
-          <div className='block sm:hidden'>
+          <div className="block sm:hidden">
             <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
+            <p className="py-2">Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
@@ -61,124 +60,100 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
-          </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span>Front-End Web Developer
+            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>SQL
+            <span className="px-2">|</span>NoSQL
+            <span className="px-2">|</span>MUI
+            <span className="px-2">|</span>Node
+            <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span>AWS
+            <span className="px-2">|</span>Mongodb
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-            INFINITE TECH
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Athira health</span>
+            <span className="px-2">|</span>Nagpur
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Full Stack Web Developer Intern (June, 2023 – August, 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Worked to Develop an AI based health monitoring Web
+              Application.(React, MUI)
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Worked with REST APIs and Ml models to develop robust and scalable
+              back ends (Flask, MongoDB)
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Improved website performance and speed through optimization
+              techniques. (AWS,Hostinger)
             </li>
           </ul>
         </div>
 
-
         {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Frontend Developer Intern</span>
+            <span className="px-2">|</span>Gurgaon, Delhi
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">Briefly (July, 2022 – August, 2022)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+              Worked on a project titled Briefly Client Dashboard which was
+              aimed at designing the frontend design for onboarding clients on
+              the platform
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Collaborated with the design team to ensure website design and
+              layout were visually appealing and user-friendly
             </li>
           </ul>
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Other Professional Experience
         </h5>
-      
+
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Technical Co lead</span>
+            <span className="px-2">|</span>Nagpur, Maharashtra
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Geeks for geeks RCOEM chapter ( August, 2022 - August 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Managed a team of skilled developers to create multiple projects
+              related to chapter.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+              Collaborated with various industry experts for conducting webinar
+              in college.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Conducted a seminar on Web development and data science
+              fundamentals
             </li>
           </ul>
         </div>
