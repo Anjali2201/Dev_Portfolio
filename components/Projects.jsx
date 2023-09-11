@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import CollegeWIT from "../public/assets/projects/Collegewit.png";
-import GithubCrypt from "../public/assets/projects/githubCryp.png";
+import CollegeWIT from "../public/assets/projects/collegewit.png";
+import GithubCrypt from "../public/assets/projects/githubcryp.png";
 import athira from "../public/assets/projects/hridayam.png";
 import gl from "../public/assets/projects/gl.png";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
