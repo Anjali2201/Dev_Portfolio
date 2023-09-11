@@ -41,7 +41,7 @@ const property = () => {
               </div>
             </a> */}
             <a
-              href="https://collegewit.netlify.app/"
+              href="https://athirahealth.com/"
               target="_blank"
               rel="noreferrer"
             >
