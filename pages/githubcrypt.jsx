@@ -7,7 +7,10 @@ import Link from "next/link";
 const property = () => {
   return (
     <div className="w-full px-4 py-20 justify-center items-center   ">
-      <div className="flex h-[70vh] w-[70vw] p-1  rounded-lg shadow-xl max-w-[1240px] mx-auto ">
+      <div
+        className="flex h-[70vh] w-[70vw] p-1  rounded-lg shadow-xl max-w-[1240px] mx-auto 
+        justify-center items-center hidden md:flex "
+      >
         <Image
           src={githubcrypt}
           alt="/"
